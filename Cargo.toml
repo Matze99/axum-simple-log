@@ -2,6 +2,14 @@
 name = "axum_log_util"
 version = "0.1.0"
 edition = "2021"
+description = "A procedural macro crate for automatic logging of Axum HTTP request handlers"
+license = "MIT"
+repository = "https://github.com/Matze99/axum-log-util"
+homepage = "https://github.com/Matze99/axum-log-util"
+documentation = "https://docs.rs/axum_log_util"
+keywords = ["axum", "logging", "http", "macro", "web"]
+categories = ["web-programming", "development-tools"]
+authors = ["Matthias Ruiz <matthias.ruiz@blue-chestnut.com>"]
 
 [lib]
 proc-macro = true
